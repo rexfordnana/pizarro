@@ -1,5 +1,5 @@
-# pizarro
-a predictive budgeting system
+# MyCrystal Budget
+A predictive budgeting system
 
 **Description**
 
