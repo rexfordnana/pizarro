@@ -5,7 +5,9 @@
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export NODE_ENV=development && nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +23,12 @@
   },
   "homepage": "https://github.com/rexfordnana/pizarro#readme",
   "devDependencies": {
-    "eslint": "^7.1.0"
+    "eslint": "^7.1.0",
+    "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "bunyan": "^1.8.12",
-    "config": "^3.3.1"
+    "bunyan": "^1.8.15",
+    "config": "^3.3.7",
+    "express": "^4.17.3"
   }
 }
